@@ -1,0 +1,15 @@
+{
+  "name": "slack_reversi",
+  "version": "1.0.0",
+  "description": "スラック上でリバーシが楽しめます",
+  "main": "main.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Masato Ebisawa",
+  "license": "ISC",
+  "dependencies": {
+    "botkit": "^0.6.14",
+    "canvas": "^1.6.11"
+  }
+}
