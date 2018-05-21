@@ -18,9 +18,9 @@ export default class game {
     }
 
     if (game.turn === 1) {
-      bot.reply(message, `${game.p1.name}さん（黒）の番です`)
+      bot.reply(message, `${this.p1.name}さん（黒）の番です`)
     } else {
-      bot.reply(message, `${game.p2.name}さん（白）の番です`)
+      bot.reply(message, `${this.p2.name}さん（白）の番です`)
     }
 
     this.board.checkCanPut(this.turn)
